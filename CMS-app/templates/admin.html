@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tedfake</title>
+  </head>
+  <body>
+    <h1>Admin Page</h1>
+    <form method="post">
+      <label>Youtube link: </label>
+
+      <input type="text" name="link" value="">
+      <input type="submit" name="" value="Submit">
+      <br>
+      <a href="{{url_for('logout')}}">Đăng xuất</a>
+</form>
+<table border="1px">
+  <thead>
+    <th>No.</th>
+    <th>Name</th>
+    <th>Views</th>
+    <th>Link</th>
+    <th>Image</th>
+  </thead>
+  <tbody>
+    {% for video in videos %}
+      <tr>
+        <td>{{loop.index}}</td>
+        <td>{{video.title}}</td>
+        <td>{{video.views}}</td>
+        <td>{{video.link}}</td>
+        <td>
+          <img src="{{video.thumbnail}}" width="200px" height="130px">
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+  </body>
+</html>

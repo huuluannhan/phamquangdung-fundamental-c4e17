@@ -8,6 +8,7 @@ mlab.connect()
 def index():
     return render_template('index.html')
 def lists():
+    all_customer=Customer.objects()
     return render_template('list.html')
 # @app.route('/customer')
 # def search():

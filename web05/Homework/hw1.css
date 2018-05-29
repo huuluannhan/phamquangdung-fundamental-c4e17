@@ -1,0 +1,50 @@
+.bg-blue{
+  background-color: #3F51B5;
+}
+.bold{
+  font-weight: bold;
+}
+.font-uppercase{
+  text-transform: uppercase;
+}
+.align-center{
+  text-align: center;
+}
+#box-1{
+  height:576px;
+  width: 1024px;
+  color: white;
+  background-image: url("Marvel.jpg");
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  justify-content: center;
+  margin: 50px 0px 50px 0px;
+}
+.box2{
+  height:100%;
+}
+.square{
+  height:70px;
+  width: 70px;
+}
+.round{
+  border-radius: 50%;
+}
+.box-2-upper{
+  background-color: none;
+  height:50%;
+  padding: 0px 100px 0px 100px;
+}
+.box-2-lower{
+  background-color: none;
+  height: 30%;
+}
+.d-inline-block{
+  display: inline-block;
+}
+.flex{
+display: flex;
+}
+.container-image{
+  width: 100%;
+}

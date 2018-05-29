@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tedfake</title>
+  </head>
+  <body>
+<h1>Welcome to Tedfake</h1>
+<a href="{{url_for('login')}}">Đăng nhập</a>
+{% for video in videos %}
+<div>
+  <b>{{video.title}}</b>
+  <br>
+  <span>{{video.views}} Views</span>
+  <br>
+  <img src="{{video.thumbnail}}" alt="" width="200px" height="130px">
+  <br>
+  <a href="{{
+    url_for('detail',
+            youtube_id=video.youtube_id)}}">Xem</a>
+</div>
+<hr>
+{% endfor %}
+  </body>
+</html>

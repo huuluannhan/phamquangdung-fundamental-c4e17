@@ -1,0 +1,15 @@
+.text-color{
+  color: red;
+}
+.text-uppercase{
+  text-transform: uppercase;
+}
+.text-weight{
+  font-weight: bold;
+}
+.Source-code-pro{
+  font-family: 'Source Code Pro', monospace;
+}
+Amatic-sc.{
+  font-family: 'Amatic SC', cursive;
+}

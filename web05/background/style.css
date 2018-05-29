@@ -1,0 +1,43 @@
+.bg-blue{
+  background-color: #3F51B5;
+}
+.bold{
+  font-weight: bold;
+}
+.font-uppercase{
+  text-transform: uppercase;
+}
+.align-center{
+  text-align: center;
+}
+
+#box-1{
+  height: 400px;
+  w: 100%;
+  background-color: #3F51B5;
+  margin: 50px 0px 50px 0px;
+  padding: 0px 20px 0px 20px;
+}
+.box2{
+  height:100%;
+  width:24%;
+}
+.square{
+  height:100px;
+  width: 100px;
+}
+.round{
+  border-radius: 50%;
+}
+.box-2-upper{
+  background-color: #81D4FA;
+  height:70%;
+  padding: 0px 100px 0px 100px;
+}
+.box-2-lower{
+  background-color: #A5D6A7;
+  height: 30%;
+}
+.d-inline-block{
+  display: inline-block;
+}
